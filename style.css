@@ -169,5 +169,19 @@ body {
     background-color:#3882F6;
     border-radius: 10px;
     padding:5px 30px 5px 30px;
-    
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 20px;
+    font-family: sans-serif;
+    gap: 8px;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
