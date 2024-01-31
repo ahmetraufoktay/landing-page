@@ -1,5 +1,6 @@
 body {
     margin:0px;
+    padding: 0px;
 }
 .header {
     display: flex;
@@ -8,6 +9,7 @@ body {
     height: 40%;
     background-color: #1F2937;
 }
+/*header navigation part*/
 .headernav {
     display: flex;
     align-items: center;
@@ -30,6 +32,7 @@ body {
     font-family: sans-serif;
 }
 
+/*header info part*/
 .headerinfo {
     display: flex;
     justify-content:center;
@@ -72,3 +75,64 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/*content part*/
+.informationtext {
+    text-align: center;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight:bolder;
+    margin: 2% 0% 2% 0%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.informationcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.subdivs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 5%;
+}
+.subdiv {
+    width: 7%;
+    text-align: center;
+}
+.subimage {
+    display: flex;
+    padding:35%;
+    justify-content: center;
+    border:solid #3882F6;
+    border-radius: 10px;
+}
+
+/*quote part of the content part*/
+.inspiringQuote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+.theQuote {
+    display: flex;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 10% 20% 0% 20%;
+}
+.godofthunder {
+    display: flex;
+    justify-content: right;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 1% 20% 10% 20%;
+}
+/*call to action part of the content part*/
